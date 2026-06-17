@@ -1,23 +1,86 @@
 {
-  "type": "module",
+  
   "scripts": {
-    "dev": "tsx watch src/server.ts",
-    "serve": "node dist/server.js"
+  
+    
+  "build": "tsc",
+  
+    
+  "dev": "tsx watch src/server.ts",
+  
+    
+  "serve": "node dist/server.js",
+  
+    
+  "knex": "tsx node_modules/knex/bin/cli.js"
+  
   },
+  
   "dependencies": {
-    "dotenv": "^17.4.2",
-    "express": "^5.2.1",
-    "knex": "^3.2.10",
-    "pg": "^8.21.0",
-    "uuid": "^14.0.0",
-    "zod": "^4.4.3"
+  
+    
+  "bcrypt": "^6.0.0",
+  
+    
+  "class-transformer": "^0.5.1",
+  
+    
+  "class-validator": "^0.15.1",
+  
+    
+  "dotenv": "^17.4.2",
+  
+    
+  "express": "^5.2.1",
+  
+    
+  "jsonwebtoken": "^9.0.3",
+  
+    
+  "knex": "^3.2.10",
+  
+    
+  "pg": "^8.21.0",
+  
+    
+  "uuid": "^14.0.0",
+  
+    
+  "zod": "^4.4.3"
+  
   },
+  
   "devDependencies": {
-    "@types/express": "^5.0.6",
-    "@types/node": "^20.11.1",
-    "eslint": "^10.5.0",
-    "prettier": "^3.8.4",
-    "tsx": "^4.22.4",
-    "typescript": "^6.0.3"
+  
+    
+  "@types/bcrypt": "^6.0.0",
+  
+    
+  "@types/express": "^5.0.6",
+  
+    
+  "@types/jsonwebtoken": "^9.0.10",
+  
+    
+  "@types/node": "^20.11.1",
+  
+    
+  "@types/uuid": "^10.0.0",
+  
+    
+  "eslint": "^10.5.0",
+  
+    
+  "prettier": "^3.8.4",
+  
+    
+  "ts-node": "^10.9.2",
+  
+    
+  "tsx": "^4.22.4",
+  
+    
+  "typescript": "^6.0.3"
+  
   }
 }
