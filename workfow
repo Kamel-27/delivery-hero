@@ -1,0 +1,7 @@
+Database migrations
+implement bottom up 
+create entity classes that represent Database
+create repository quiers
+create service functions
+create controllers
+create routes

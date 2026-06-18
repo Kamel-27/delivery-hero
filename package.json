@@ -28,6 +28,9 @@
   "class-validator": "^0.15.1",
   
     
+  "crypto": "^1.0.1",
+  
+    
   "dotenv": "^17.4.2",
   
     

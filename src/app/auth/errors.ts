@@ -1,5 +1,25 @@
 import { AppError } from "../../common/error/AppError";
 
-export const UserAlreadyExistsError = new AppError('User Already Exists with same phone or email', 400);
+export const UserAlreadyExistsError = new AppError(
+  "User Already Exists with same phone or email",
+  400,
+);
 
-export const CannotSignupAsSystemAdmin = new AppError('You cannot register as a system admin', 403);
+export const CannotSignupAsSystemAdmin = new AppError(
+  "You cannot register as a system admin",
+  403,
+);
+export const InvalidCredentialsError = new AppError(
+  "Invalid email or password",
+  401,
+);
+
+export const InvalidPasswordResetRequestError = new AppError(
+  "Invalid or expired password reset request",
+  401,
+);
+
+export const InvalidPasswordResetOtpError = new AppError(
+  "Invalid password reset OTP",
+  401,
+);
