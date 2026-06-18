@@ -2,7 +2,7 @@ declare namespace Express {
     interface Request {
         correlationId?: string;
         user?: {
-            user_id: number;
+            userId: number;
             role: string;
             email: string;
         };
